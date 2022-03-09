@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Guess the button</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1 class="">Guess The Button</h1>
+    </div>
+    <div class="form">
+      <label for="inputNumber">Enter A Number</label>
+      <input type="number" id="inputNumber">
+      <input type="submit" value="Submit" id="submitNumber" onclick="generateButtons()" />
+    </div>
+      <div class="button-holder" >
+        <p id="buttons"></p>
+        <p><Strong>Result:</Strong></p>
+        <p id="result"></p>
+      </div>
+
+    <div class="startagain">
+      <input type="submit" value="Start Again" id="Start again" onclick="reload()" />
+    </div>
+  </body>
+</html>
